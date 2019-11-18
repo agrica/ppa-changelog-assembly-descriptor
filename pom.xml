@@ -9,8 +9,6 @@
 
     <name>PPA Changelog packaging</name>
 
-    <packaging>pom</packaging>
-
 	<organization>
         <name>Agrica</name>
         <url>https://www.groupagrica.com/</url>
