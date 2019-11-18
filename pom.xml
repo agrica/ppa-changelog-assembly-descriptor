@@ -64,11 +64,7 @@
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
     </properties>
-
-    <modules>
-        <module>ppa-assembly-descriptor</module>
-        <module>ppa</module>
-    </modules>
+ 
     <profiles>
         <!-- To release to Maven central -->
         <profile>
