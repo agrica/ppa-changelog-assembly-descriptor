@@ -25,14 +25,14 @@ deploy:
     script: .travis/deploy.sh
     skip_cleanup: true
     on:
-      repo: agrica/ppa
+      repo: agrica/ppa-changelog-assembly-descriptor
       branch: master
   -
     provider: script
     script: .travis/deploy.sh
     skip_cleanup: true
     on:
-      repo: agrica/ppa
+      repo: agrica/ppa-changelog-assembly-descriptor
       tags: true
     
 cache:
