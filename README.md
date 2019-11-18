@@ -1,0 +1,1 @@
+# ppa-changelog-assembly-descriptor
