@@ -12,3 +12,4 @@ git push origin ossrh-$VERSION
 git checkout master
 git branch -D prepare-release
 ```
+==> https://repo1.maven.org/maven2/io/github/agrica/
