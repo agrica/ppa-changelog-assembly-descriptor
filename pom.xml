@@ -51,8 +51,8 @@
 	</developers>
 
     <scm>
-        <connection>scm:git:https://github.com/agrica/ppa.git</connection>
-        <url>https://github.com/agrica/ppa</url>
+        <connection>scm:git:https://github.com/agrica/ppa-changelog-assembly-descriptor.git</connection>
+        <url>https://github.com/agrica/ppa-changelog-assembly-descriptor</url>
     </scm>	
 
     <properties>
