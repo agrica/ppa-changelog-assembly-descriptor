@@ -4,7 +4,7 @@
 ## OSS Releasing
 ```bash
 git co -b prepare-release
-mvn versions:set -DnewVersion=$VERSION
+mvn versions:set -DgenerateBackupPoms=false -DnewVersion=$VERSION
 mvn clean install
 git commit -am "Prépare Release version $VERSION"
 git tag -a ossrh-$VERSION -m "Release version $VERSION"
