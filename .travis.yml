@@ -34,6 +34,7 @@ deploy:
     on:
       repo: agrica/ppa-changelog-assembly-descriptor
       tags: true
+      condition: $TRAVIS_TAG =~ ^ossrh-
     
 cache:
     directories:
