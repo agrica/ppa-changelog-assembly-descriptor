@@ -74,6 +74,10 @@
                     <name>ossrh-release</name>
                 </property>
             </activation>
+            <properties>
+                <dist.snapshots.url>https://s01.oss.sonatype.org/content/repositories/snapshots</dist.snapshots.url>
+                <dist.releases.url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</dist.releases.url>
+            </properties>
             <distributionManagement>
                 <snapshotRepository>
                     <id>ossrh</id>
